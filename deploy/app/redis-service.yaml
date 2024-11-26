@@ -4,6 +4,7 @@ metadata:
   labels:
     app: redis
   name: redis
+  namespace: fluxcd
 spec:
   type: ClusterIP
   ports:

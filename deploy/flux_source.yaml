@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: vooting-app-sot
-  namespace: k8s
+  namespace: fluxcd
 spec:
   interval: 30s
   ref:
