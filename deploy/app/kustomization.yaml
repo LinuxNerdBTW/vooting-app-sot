@@ -4,6 +4,7 @@ metadata:
   name: vootingappkustomization
   namespace: fluxcd
 resources:
+  - namespace.yaml
   - db-pvc.yaml
   - redis-pvc.yaml
   - db-deployment.yaml
