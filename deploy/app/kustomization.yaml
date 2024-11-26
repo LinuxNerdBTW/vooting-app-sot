@@ -9,7 +9,7 @@ resources:
   - db-deployment.yaml
   - redis-deployment.yaml
   - db-service.yaml
-  - regis-service.yaml
+  - redis-service.yaml
   - worker-deployment.yaml
   - vote-deployment.yaml
   - vote-service.yaml
